@@ -1335,6 +1335,7 @@ select:focus {
     -moz-box-shadow: 0px 0px 15px 2px #ebebf2;
     box-shadow: 0px 0px 15px 2px #ebebf2;
     margin: 10px 10px 10px;
+    min-height: 450px;
 }
 .single-service-item .img-holder{
     display: block;
