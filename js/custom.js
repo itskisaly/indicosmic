@@ -99,20 +99,20 @@ function prettyPhoto() {
 
 
 //===Header Sticky===
-function headerStyle() {
-    if($('.header-area').length){
-        var windowpos = $(window).scrollTop();
-        var siteHeader = $('.header-area');
-        var scrollLink = $('.scroll-to-top');
-        if (windowpos >= 250) {
-            siteHeader.addClass('fixed-header');
-            scrollLink.fadeIn(300);
-        } else {
-            siteHeader.removeClass('fixed-header');
-            scrollLink.fadeOut(300);
-        }
-    }
-}
+// function headerStyle() {
+//     if($('.header-area').length){
+//         var windowpos = $(window).scrollTop();
+//         var siteHeader = $('.header-area');
+//         var scrollLink = $('.scroll-to-top');
+//         if (windowpos >= 250) {
+//             siteHeader.addClass('fixed-header');
+//             scrollLink.fadeIn(300);
+//         } else {
+//             siteHeader.removeClass('fixed-header');
+//             scrollLink.fadeOut(300);
+//         }
+//     }
+// }
 
 
 //===Search box ===
